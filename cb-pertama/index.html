@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Racing Game - Weather Edition</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container" tabindex="0">
+      <div class="fog-layer" id="fogLayer"></div>
+
+      <div class="info">
+        <div>Speed: <span id="speed">0</span> km/h</div>
+        <div>Turbo: <span id="turbo">OFF</span></div>
+        <div>Distance: <span id="distance">0</span> m</div>
+        <div>Lap: <span id="lap">1</span></div>
+        <div>Score: <span id="score">0</span></div>
+        <div>Weather: <span id="weather">Sunny</span></div>
+      </div>
+
+      <div class="car" id="car"></div>
+      <div class="ai-car" id="ai-car1"></div>
+      <div class="ai-car" id="ai-car2"></div>
+      <div class="ai-car" id="ai-car3"></div>
+      <div class="obstacle" id="obstacle"></div>
+      <div class="finish-line" id="finish-line"></div>
+
+      <div class="mini-map">
+        Mini Map
+        <div class="progress-bar">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
